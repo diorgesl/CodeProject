@@ -1,6 +1,6 @@
 <?php
 
-namespace Curso\Events;
+namespace CodeProject\Events;
 
 abstract class Event
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Curso\Providers;
+namespace CodeProject\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Curso\Events\SomeEvent' => [
-            'Curso\Listeners\EventListener',
+        'CodeProject\Events\SomeEvent' => [
+            'CodeProject\Listeners\EventListener',
         ],
     ];
 

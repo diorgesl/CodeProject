@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class ClientTableSedeer extends Seeder
+class UserTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +11,7 @@ class ClientTableSedeer extends Seeder
      */
     public function run()
     {
-        \Curso\Client::truncate();
-        factory(\Curso\Client::class, 10)->create();
+        \CodeProject\Entities\User::truncate();
+        factory(\CodeProject\Entities\User::class, 10)->create();
     }
 }

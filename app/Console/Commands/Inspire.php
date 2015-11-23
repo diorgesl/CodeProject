@@ -1,6 +1,6 @@
 <?php
 
-namespace Curso\Console\Commands;
+namespace CodeProject\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => Curso\User::class,
+    'model' => CodeProject\User::class,
 
     /*
     |--------------------------------------------------------------------------
